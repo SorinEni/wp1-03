@@ -1,6 +1,19 @@
 <?php
-$A = "20";
-$B = "2";
+$a = 20;
+$b = 0;
+
+$product = $a * $b;
+$difference = $a - $b;
+$sumarry = $a + $b;
+
+if ($b != 0 ) {
+    $portion = $a / $b;
+}
+
+else {
+    $portion = "nelze dělit nulou";
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -12,12 +25,12 @@ $B = "2";
 </head>
 <body>
 
-    <p> A = <?= $A; ?> </p>
-    <p> B = <?= $B; ?> </p> 
-    <p>Součet: <?= $A + $B; ?> </p>
-    <p>Součin: <?= $A * $B; ?> </p>
-    <p>Rozdíl: <?= $A - $B; ?> </p>
-    <p>Podíl: <?= $A / $B; ?> </p>
+    <p> a = <?= $a; ?> </p>
+    <p> b = <?= $b; ?> </p> 
+    <p>Součet: <?= $a; ?> + <?= $b; ?> = <?= $sumarry; ?> </p>
+    <p>Součin: <?= $a; ?> * <?= $b; ?> = <?= $product; ?> </p>
+    <p>Rozdíl: <?= $a; ?> - <?= $b; ?> = <?= $difference; ?> </p>
+    <p>Podíl: <?= $a; ?> / <?= $b; ?> = <?= $portion; ?> </p>
 
 
 </body>
