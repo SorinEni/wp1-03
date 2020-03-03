@@ -1,6 +1,6 @@
 <?php
-$a = 20;
-$b = 0;
+$a = 666;
+$b = 1337;
 
 $product = $a * $b;
 $difference = $a - $b;
